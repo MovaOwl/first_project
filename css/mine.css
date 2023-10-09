@@ -1,7 +1,7 @@
 
 a{
-    text-decoration: none;/*Убрал линии у всех ссылок*/
-    color: inherit; /*Устанавливается родительский цвет вверх по каскаду*/
+    text-decoration: none;
+    color: inherit; 
 }
 ul{
     margin: 0;
@@ -22,22 +22,22 @@ body{
 
 .header{
     color: #717171;
-    background-color: #0A0A0A;/*Задает цвет фона*/
-    padding: 33px 0 32px; /*Отступ относительно контейнера*/
-    font-size: 24px;/*Размер шрифта*/
-    line-height: 29px;/*ширина строки*/
+    background-color: #0A0A0A;
+    padding: 33px 0 32px; 
+    font-size: 24px;
+    line-height: 29px;
 }
 
 .container{
-    max-width: 1200px;/*Задает максимальную ширину*/
-    margin: 0 auto; /*автоматически центрирует container*/
-    padding: 0 15px;/*Отсуп внутрений*/
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .nav{
-    display: flex; /*стиль flex распределения на дисплее*/
-    justify-content: space-between; /*распределение по краям и центру*/
-    align-items: center; /*выравнивание блоков по центру*/
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
 }
 
 .menu{
@@ -53,7 +53,7 @@ body{
     line-height: 29px;
 }
 .menu-item{
-    padding-right: 30px;/*отступ блока в право*/
+    padding-right: 30px;
 }
 
 /*Main*/
@@ -63,7 +63,7 @@ body{
     padding: 70px 0 40px;
 }
 .title{
-    text-transform: uppercase; /*текст с большой буквы*/
+    text-transform: uppercase;
     margin:0 0 40px;
     color: #490E84;
     font-weight: 700;
@@ -74,7 +74,7 @@ body{
     margin-bottom: 25px;
 }
 .headline-btn{
-    display: inline-block;/*Передает блочные свойства css*/
+    display: inline-block;
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
@@ -116,8 +116,6 @@ body{
     margin-left: 191px;
 }
 
-
-/*Color*/
 .color{
 padding-bottom: 150px;
 }
@@ -187,7 +185,6 @@ padding-bottom: 150px;
     cursor: pointer;
 }
 
-/*Footer*/
 .footer{
     background-color: #0A0A0A;
 }
